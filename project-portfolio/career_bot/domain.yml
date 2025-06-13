@@ -1,0 +1,91 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - technology
+  - arts
+  - commerce
+  - science
+  - law
+  - teaching
+  - hospitality
+  - media
+  - skilled_trades
+  - civil_services
+  - agriculture
+  - aerospace
+  - gaming
+
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_default
+  - utter_technology
+  - utter_arts
+  - utter_commerce
+  - utter_science
+  - utter_law
+  - utter_teaching
+  - utter_hospitality
+  - utter_media
+  - utter_skilled_trades
+  - utter_civil_services
+  - utter_agriculture
+  - utter_aerospace
+  - utter_gaming
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you in choosing your career path?"
+
+  utter_goodbye:
+    - text: "Goodbye! All the best for your career."
+
+  utter_default:
+    - text: "I'm sorry, I didn't understand that. Can you please rephrase?"
+
+  utter_technology:
+    - text: "Technology careers include software development, AI/ML, data science, and more."
+
+  utter_arts:
+    - text: "Arts fields include fine arts, history, literature, music, and more."
+
+  utter_commerce:
+    - text: "Commerce leads to careers in accounting, business, finance, and management."
+
+  utter_science:
+    - text: "Science offers paths in research, healthcare, engineering, and environmental studies."
+
+  utter_law:
+    - text: "Law careers include lawyer, judge, legal advisor, and require LLB/LLM degrees."
+
+  utter_teaching:
+    - text: "Teaching is a noble profession requiring B.Ed and subject expertise."
+
+  utter_hospitality:
+    - text: "Hospitality includes hotel management, travel & tourism, and customer service."
+
+  utter_media:
+    - text: "Media careers include journalism, film making, content creation, and communication."
+
+  utter_skilled_trades:
+    - text: "Skilled trades include electrician, plumber, mechanic, and technical certifications."
+
+  utter_civil_services:
+    - text: "Civil services include IAS, IPS, IFS, and require UPSC exams."
+
+  utter_agriculture:
+    - text: "Agriculture involves farming, agribusiness, horticulture, and agricultural science."
+
+  utter_aerospace:
+    - text: "Aerospace includes aircraft design, aeronautical engineering, and space research."
+
+  utter_gaming:
+    - text: "Gaming includes game development, game design, animation, and eSports."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,66 @@
+version: "3.1"
+stories:
+- story: tech career path
+  steps:
+  - intent: technology
+  - action: utter_technology
+
+- story: arts career path
+  steps:
+  - intent: arts
+  - action: utter_arts
+
+- story: commerce career path
+  steps:
+  - intent: commerce
+  - action: utter_commerce
+
+- story: science career path
+  steps:
+  - intent: science
+  - action: utter_science
+
+- story: law career path
+  steps:
+  - intent: law
+  - action: utter_law
+
+- story: teaching career path
+  steps:
+  - intent: teaching
+  - action: utter_teaching
+
+- story: hospitality career path
+  steps:
+  - intent: hospitality
+  - action: utter_hospitality
+
+- story: media career path
+  steps:
+  - intent: media
+  - action: utter_media
+
+- story: skilled trades career path
+  steps:
+  - intent: skilled_trades
+  - action: utter_skilled_trades
+
+- story: civil services path
+  steps:
+  - intent: civil_services
+  - action: utter_civil_services
+
+- story: agriculture path
+  steps:
+  - intent: agriculture
+  - action: utter_agriculture
+
+- story: aerospace path
+  steps:
+  - intent: aerospace
+  - action: utter_aerospace
+
+- story: gaming path
+  steps:
+  - intent: gaming
+  - action: utter_gaming

@@ -1,0 +1,106 @@
+version: "3.1"
+nlu:
+
+- intent: technology
+  examples: |
+    - I love coding
+    - I enjoy programming
+    - I'm interested in AI
+    - I want to become a software engineer
+    - I like data science
+
+- intent: arts
+  examples: |
+    - I love painting
+    - I enjoy music
+    - I want to be a dancer
+    - I'm interested in singing
+    - I want to be a graphic designer
+
+- intent: commerce
+  examples: |
+    - I want to become a CA
+    - I like business
+    - I’m interested in accounting
+    - I want to be a banker
+    - I enjoy finance and economics
+
+- intent: science
+  examples: |
+    - I want to be a doctor
+    - I'm interested in biology
+    - I like physics and chemistry
+    - I want to go into medical field
+    - I love science
+
+- intent: law
+  examples: |
+    - I want to be a lawyer
+    - I am interested in legal studies
+    - I want to practice law
+    - I enjoy debate and justice
+    - I want to join judiciary services
+
+- intent: teaching
+  examples: |
+    - I want to be a teacher
+    - I enjoy explaining concepts
+    - I like helping others learn
+    - I am interested in education
+    - I want to become a professor
+
+- intent: hospitality
+  examples: |
+    - I want to work in hotels
+    - I like tourism
+    - I want to be a chef
+    - I enjoy managing events
+    - I’m interested in travel and hospitality
+
+- intent: media
+  examples: |
+    - I like journalism
+    - I want to become a news reporter
+    - I enjoy social media and content creation
+    - I’m interested in mass communication
+    - I want to work in media
+
+- intent: skilled_trades
+  examples: |
+    - I want to be an electrician
+    - I like working with machines
+    - I enjoy hands-on work
+    - I want to be a technician
+    - I want to be a mechanic
+
+- intent: civil_services
+  examples: |
+    - I want to become an IAS officer
+    - I want to serve the nation
+    - I want to join the army
+    - I’m interested in civil services
+    - I want to join defense forces
+
+- intent: agriculture
+  examples: |
+    - I want to work in farming
+    - I’m interested in agriculture
+    - I like working with plants
+    - I want to study agronomy
+    - I want to help farmers
+
+- intent: aerospace
+  examples: |
+    - I want to work with rockets
+    - I’m interested in space science
+    - I want to be an astronaut
+    - I love aerospace engineering
+    - I want to work at NASA or ISRO
+
+- intent: gaming
+  examples: |
+    - I want to be a game developer
+    - I love video games
+    - I want to work in animation
+    - I’m interested in gaming industry
+    - I want to design characters and stories
